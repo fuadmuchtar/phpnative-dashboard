@@ -61,7 +61,7 @@ if (isset($_POST['signup'])) {
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="text" class="form-control form-control-user" id="exampleFirstName"
-                                            placeholder="First Name" name="fName">
+                                            placeholder="First Name" name="fName" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="text" class="form-control form-control-user" id="exampleLastName"
@@ -70,16 +70,16 @@ if (isset($_POST['signup'])) {
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control form-control-user" id="exampleInputEmail"
-                                        placeholder="Username" name="username">
+                                        placeholder="Username" name="username" required>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleInputPassword" placeholder="Password" name="password">
+                                            id="exampleInputPassword" placeholder="Password" name="password" required>
                                     </div>
                                     <div class="col-sm-6">
                                         <input type="password" class="form-control form-control-user"
-                                            id="exampleRepeatPassword" placeholder="Repeat Password" name="password2">
+                                            id="exampleRepeatPassword" placeholder="Repeat Password" name="password2" required>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block" name="signup">
@@ -98,7 +98,7 @@ if (isset($_POST['signup'])) {
                                 <a class="small" href="forgot-password.html">Forgot Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">Already have an account? Login!</a>
+                                <a class="small" href="login.php">Already have an account? Login!</a>
                             </div>
                         </div>
                     </div>
