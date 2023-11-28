@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-$conn = mysqli_connect('localhost', 'root', '', 'pj_phpnative_dashboard');
-// $conn = mysqli_connect('sql105.infinityfree.com', 'if0_35064849', 'uplOad1', 'if0_35064849_db_pendidikanku');
+// $conn = mysqli_connect('localhost', 'root', '', 'pj_phpnative_dashboard');
+ $conn = mysqli_connect('sql200.infinityfree.com', 'if0_35512647', 'uplOad2', 'if0_35512647_dashboard_project');
 
 
 $query = "";
