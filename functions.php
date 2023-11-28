@@ -47,7 +47,7 @@ function add($data, $page)
 
     if ($page == 'jadwal') {
         $hari = $data['hari_jadwal'];
-        $jadwal = $data['nama_jadwal'];
+        $jadwal = ucwords($data['nama_jadwal']);
         $jam1 = $data['dari_jam'];
         $jam2 = $data['sampai_jam'];
         $ruang = htmlspecialchars(strtoupper($data['kode_ruang']));
