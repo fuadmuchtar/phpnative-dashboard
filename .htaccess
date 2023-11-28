@@ -1,0 +1,17 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php [NC,L]
+RewriteRule ^jadwal?$ menu?page=jadwal
+RewriteRule ^tugas?$ menu?page=tugas
+RewriteRule ^catatan?$ menu?page=catatan
+RewriteRule ^dashboard?$ index
+RewriteRule ^dashboardf?$ indexf
+RewriteRule ^jadwalf?$ menuf?page=jadwalf
+RewriteRule ^tugasf?$ menuf?page=tugasf
+RewriteRule ^catatanf?$ menuf?page=catatanf
+
+php_value display_errors On
+php_value mbstring.http_input auto
+php_value date.timezone Asia/Jakarta
+
